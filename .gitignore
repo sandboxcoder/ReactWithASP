@@ -1,0 +1,6 @@
+# .NET compiled files
+ReactWithASP.Server/bin/*
+ReactWithASP.Server/obj/*
+ReactWithASP.Client/bin/*
+ReactWithASP.Client/obj/*
+.vs/*
