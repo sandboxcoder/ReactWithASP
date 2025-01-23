@@ -24,7 +24,7 @@ namespace ReactWithASP.Server.Controllers
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                TemperatureC = Random.Shared.Next(-20, 55),
+                TemperatureC = Random.Shared.Next(-2, 55), // Lowest temp in Austin, TX for example
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
